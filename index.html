@@ -4,44 +4,152 @@
 <head>
   <title> Reservia </title>
   <link href="style.css" type="text/css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/65e2da3255.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="description" content="Find a place for your dream vacation">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a class = "nav" href="#">Accommodations</a></li>
-            <li><a class = "nav" href="#">Activities</a></li>
-            <li><a class = "nav" href="#">Sign Up</a></li>
+        <ul class= "nav">
+            <li class= "navlist"><a class = "accom" href="#">Accommodations</a></li>
+            <li class= "navlist"><a class = "activities" href="#">Activities</a></li>
+            <li class="navlist"><a class = "sign" href="#">Sign Up</a></li>
         </ul>
     </nav>
-    <img class= "logo" src= "Reservia.svg" alt= "Blue Reservia logo" title= "Reservia logo">
+    <img class= "logo" src= "resources/images/logo/Reservia.svg" alt= "Blue Reservia logo" title= "Reservia logo">
     <h2 id= "tagline">Find a place for your dream vacation</h2>
     <h3 id= "where"> Downtown or in nature</h3>
     <div class= "search">
-        <i class="fas fa-map-marker-alt"></i>
+        <i class="fas fa-map-marker-alt map-pin"></i>
         <form>
             <input type="text" id= "search">
-            <label for="search"><a href= "#">Search</a></label>
         </form>
+        <a class= "label" href= "#">Search</a>
     </div>
-    <div class= "low">
-        <i class="fas fa-money-bill-wave"></i>
-        <a href= "#">Low Cost</a> 
+    <br>
+    <div class = "filters">
+        </span><strong>Filters</strong>
+         <span class= "low">
+            <i class="fas fa-money-bill-wave money-bill"></i>
+            <a  href= "#" >Low cost</a> 
+        </span>
+        <span class= "family">
+            <i class="fas fa-child child"></i>
+            <a href= "#">Family-friendly</a> 
+        </span>
+         <span class= "romance">
+             <i class="fas fa-heart heart"></i>
+            <a href= "#">Romantic</a>
+        </span>
+        <span class="pet">
+            <i class="fas fa-dog dog"></i>
+            <a href= "#">Pets Allowed</a>
+        </span>
     </div>
-    <div class= "family">
-        <i class="fas fa-child"></i>
-        <a href= "#">Family-Friendly</a> 
-    </div>
-    <div class= "romance">
-        <i class="fas fa-heart"></i>
-        <a href= "#">Romantic</a>
-    </div>
-    <div class="pet">
-        <i class="fas fa-dog"></i>
-        <a href= "#">Pets Allowed</a>
-    </div>
+    <br>
     <div class= "info">
-        <i class="fas fa-info-circle"></i>
+        <i class="fas fa-info-circle info-circle"></i>
+        More than 500 accommodations are available in this <br><span id= "info"> city</span>
     </div>
+    <section class= "flex">
+        <section class= "hotel">
+            <h2 class= "achead">Accommodations in Marseille</h2>
+            <section class= "hotel-flex">
+                <div class= "aubergela">
+                    <img class= "hotel-img" src= "resources/images/hebergements/2_large/aubergela.jpg" alt="picture of Auberge la Cannebière" title= "Auberge la Cannebière">
+                    <p class= "name">Auberge la Cannebière</p> 
+                    <p class="price">Night starting at <strong class= "amount">25€</strong></p>
+                    <div class= "rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star grey-star"></i>
+                    </div>
+                </div>
+                <div class= "duport">
+                    <img class= "hotel-img" src= "resources/images/hebergements/2_large/duport.jpg" alt="picture of Hôtel du port" title= "Hôtel du port">
+                    <p class= "name">Hôtel du port</p>
+                    <p class= "price">Night starting at <strong class= "amount">52€</strong></p>
+                    <div class= "rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                    </div>
+                </div>
+                <div class= "les">
+                    <img class= "hotel-img" src= "resources/images/hebergements/2_large/lesmouettes.jpg" alt= "picture of Les mouettes Hotel" title= "Les mouettes Hotel">
+                    <p class= "name">Les mouettes Hotel</p>
+                    <p class= "price">Night starting at <strong class= "amount">76€</strong></p>
+                    <div class= "rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star grey-star"></i>
+                    </div>
+                </div>
+                <div class= "lamer">
+                    <img class= "hotel-img" src="resources/images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt= "picture of Hôtel de la mer" title= "Hôtel de la mer">
+                    <p class= "name">Hôtel de la mer</p>
+                    <p class= "price">Night starting at <strong class= "amount">46€</strong></p>
+                    <div class= "rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star grey-star"></i>
+                        <i class="fas fa-star grey-star"></i>
+                    </div>
+                </div>
+                <div class= "panier">
+                    <img class= "hotel-img" src="resources/images/hebergements/2_large/aubergele.jpg" alt= "picture of Auberge Le Panier" title= "Auberge Le Panier">
+                    <p class= "name">Auberge Le Panier</p>
+                    <p class= "price">Night starting at <strong class= "amount">23€</strong></p>
+                    <div class= "rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star grey-star"></i>
+                    </div>
+                </div>
+                <div class= "chez">
+                    <img class= "hotel-img" src= "resources/images/hebergements/2_large/chez.jpg" alt="picture of Hôtel chez Amina" title= "Hôtel chez Amina">
+                    <p class= "name">Hôtel chez Amina</p>
+                    <p class= "price">Night starting at <strong class= "amount">96€</strong></p>
+                    <div class= "rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                    </div>
+                </div>
+                <div class= "show-more">
+                    Show More
+                </div>
+            </section>
+        </section>
+    
+        <section class= "popular">
+            <h2 class="pophead">Most Popular</h2>
+            <i class="fas fa-chart-line chart"></i>
+            <section class= "popflex">
+                <div class= "morning">
+                    <img class= "pop-img" src= "resources/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt= "picture of Morning Sun Hotel" title= "Morning Sun Hotel">
+                    <p class= "pop-name">Morning Sun Hotel</p>
+                    <p class= "pop-price">Night starting at <strong class= "pop-amount">71€</strong></p>
+                    <div class= "pop-rating">
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                        <i class="fas fa-star blue-star"></i>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
 </body>
