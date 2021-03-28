@@ -546,26 +546,78 @@ strong {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 580px) {
     .flex-wrap {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .hotel {
-        width: 98%;
+        width: 95%;
+        background-color: white;
     }
 
     .popular {
-        width: 98%;
-        margin: 10px;
+        border-radius: 0;
+        margin: 0;
+        width: 100%;
     }
 
     .footer {
         flex-direction: column
     }
 
+    .filter-wrap {
+        display: flex;
+        flex-flow: column wrap;
+        height: 200px;
+        align-content: flex-start;
+    }
+
+    .child {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .family {
+        padding: 0;
+        
+    }
+
+    .family-link {
+        width: 145px;
+    }
+
+    .romance {
+        padding: 0;
+        margin: 0;
+        width: 135px;
+    }
+
+    .pet {
+        padding: 0;
+        width: 155px;
+    }
+
+   
+    .low {
+        padding: 0;
+        width: 120px;
+    }
+
+    .money-bill {
+        padding: 15px;
+    }
+
+    .heart {
+        padding: 15px;
+    }
+
+    .dog {
+        padding: 15px;
+    }
+
     .hotel-flex-wrap {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .hotel-card {
