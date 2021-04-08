@@ -7,30 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Find a place for your dream vacation">
   <link href="stylefix.css" type="text/css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/65e2da3255.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
-
-        <nav class="main-nav">
-            <a class = "accom" href="#hotel">Accommodations</a>
-            <a class = "activities" href="#activities">Activities</a>
-            <a class = "sign" href="#">Sign Up</a>
-        </nav>
-
-        <a href= #><img class= "logo" src= "resources/images/logo/Reservia.svg" alt= "Blue Reservia logo" title= "Reservia logo"></a>
-        <h1 id= "tagline">Find a place for your dream vacation</h1>
+        <div class="phone-flex-wrap">
+            <nav class="main-nav">
+                <span class="border-wrap-1"><a class = "accom" href="#hotel">Accommodations</a></span>
+                <span class="border-wrap-2"><a class = "activities" href="#activities">Activities</a></span>
+                <a class = "sign" href="#">Sign Up</a>
+                <hr class= "break">
+                <a class="phone-flex-item-4" href= #><img class= "logo" src= "resources/images/logo/Reservia.svg" alt= "Blue Reservia logo" title= "Reservia logo"></a>
+            </nav>
+    
+        </div>
+        <h1 id= "tagline"><span class="line-1">Find a place for your dream</span><span class=line-2>vacation</span></h1>
         <p id= "where"> Downtown or in nature</p>
         <section class= "search">
-            <i class="fas fa-map-marker-alt map-pin"></i>
-            <form>
-                <input type="text" id= "search">
-            </form>
-            <a class= "label" href= "#">Search</a>
+            <div class="search-wrap">
+                <i class="fas fa-map-marker-alt map-pin"></i>
+                <form>
+                    <input type="text" id= "search">
+                </form>
+                <span class="desktop-label"><a class= "label" href= "#">Search</a></span>
+                <span class= "phone-label"><i class="fas fa-search phone-search"></i></span>
+            </div>
         </section>
         <br>
         <div class = "filters">
-            </span><strong>Filters</strong></span>
+            <span><strong>Filters</strong></span>
             <div class="filter-wrap">
                 <span class="low">
                     <i class="fas fa-money-bill-wave money-bill"></i>
@@ -40,13 +47,13 @@
                     <i class="fas fa-child child"></i>
                     <a href= "#" class="family-link">Family-friendly</a> 
                 </span>
-                <span class="pet">
-                    <i class="fas fa-dog dog"></i>
-                    <a href= "#" class="pet-link">Pets Allowed</a>
-                </span>
                 <span class="romance">
                     <i class="fas fa-heart heart"></i>
                     <a href= "#">Romantic</a>
+                </span>
+                <span class="pet">
+                    <i class="fas fa-dog dog"></i>
+                    <a href= "#" class="pet-link">Pets Allowed</a>
                 </span>
             </div>
         </div>
@@ -253,7 +260,7 @@
         </div>
 
         <section class= "active">
-                <section class= "to-do" id="activities"">
+                <section class= "to-do" id="activities">
                     <h2 class= "active-header">Activities in Marseille</h2>
                     <section class= "active-flex">
 
@@ -267,7 +274,7 @@
                         <div class="small-active-wrap">
                             <a href="#" class="active-link">
                                 <section class="small-activity-card">
-                                    <img class= "small-active-image" src= "resources/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt= "picture of Pomègues Fort" title= "Pomègues Fort" title= "Pomègues Fort">
+                                    <img class= "small-active-image" src= "resources/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt= "picture of Pomègues Fort" title= "Pomègues Fort">
                                     <p class= "active-name">Pomègues Fort</p>
                                 </section>
                             </a>
@@ -305,7 +312,7 @@
                         
                     </section>
                 </section>
-            </section>
+            
         </section>
     </main>
 
@@ -313,23 +320,23 @@
         <section class= "about">
             <h2 class= "list-header">About</h2>
             <ul class= "footer-list">
-                <a href="#"><li>Site Map</li></a>
-                <a href="#"><li>General Terms and Conditions</li></a>
-                <a href="#"><li>Data and Privacy</li></a>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">General Terms and Conditions</a></li>
+                <li><a href="#">Data and Privacy</a></li>
             </ul>
         </section>
-        <section class= "our-accom"">
+        <section class= "our-accom">
             <h2 class= "list-header">Our Accommodations</h2>
             <ul class= "footer-list">
-                <a href="#"><li>Quality Assesment</li></a>
-                <a href="#"><li>You have a hotel?</li></a>
+                <li><a href="#">Quality Assesment</a></li>
+                <li><a href="#">You have a hotel?</a></li>
             </ul>
         </section>
         <section class= "assist">
             <h2 class= "list-header">Assistance</h2>
             <ul class= "footer-list">
-                <a href="#"><li>Help Desk</li></a>
-                <a href="#"><li>Contact Us</li></a>
+                <li><a href="#">Help Desk</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </section>
     </section>

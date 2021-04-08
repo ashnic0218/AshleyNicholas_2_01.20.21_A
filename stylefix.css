@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'Raleway';
     src: url('fonts/Raleway-VariableFont_wght.ttf');
-}
+} */
 html {
     box-sizing: border-box;
     font-family: Raleway, sans-serif;
@@ -17,26 +17,50 @@ body {
     text-decoration: none;
     font-size: 16px;
     padding: 1%;
+    padding-top: 30px;
 }
 .accom:active{
+    border-top: 5px solid #0065FC;
+    padding-top: 30px;
+}
+
+.border-wrap-1 {
+    border: none;
+    padding: 1%;
+    padding-top: 30px;
+}
+
+.border-wrap-2 {
+    border: none;
+    padding: 1%;
+    padding-top: 30px;
+}
+
+.border-wrap-1:active {
+    border-top: 5px solid #0065FC;
+}
+
+.border-wrap-2:active {
     border-top: 5px solid #0065FC;
 }
 
 .sign:active{
     border-top: 5px solid #0065FC;
+    padding-top: 30px;
 }
 
 .activities:active{
     border-top: 5px solid #0065FC;
+    padding-top: 30px;
 }
 
 
 .activities {
   color: black;
-  
   text-decoration: none;
   font-size: 16px;
   padding: 1%;
+  padding-top: 30px;
 }
 
 .sign {
@@ -45,7 +69,8 @@ body {
   text-decoration: none;
   font-weight: bold; 
   font-size: 16px;
-  padding: 1%; 
+  padding: 1%;
+  padding-top: 30px; 
 }
 
 .main-nav {
@@ -54,7 +79,13 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    
   }
+
+.break {
+    width: 100%;
+    border: none;
+}
 
 a {
     text-decoration: none;
@@ -71,6 +102,11 @@ a:hover {
     margin-left: 5px;
 }
 
+.phone-flex-item-4 {
+   margin-right: auto;
+ }
+
+
 #tagline {
     font-family: Raleway, sans-serif;
     font-weight: bolder;
@@ -78,6 +114,10 @@ a:hover {
     padding: 0px;
     margin: 5px;
     text-shadow: 1px 0px black;
+}
+
+.line-1 {
+    margin-right: 5px;
 }
 
 #where {
@@ -93,9 +133,21 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-content: space-around;
-    text-justify: center;
     text-align: center;
     margin-left: 5px;
+}
+
+
+
+.phone-label {
+    display: none;
+}
+
+.search-wrap {
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20%;
 }
 
 .map-pin {
@@ -106,7 +158,6 @@ a:hover {
   border-top-left-radius: 10px;
   font-size: 13px;
   text-align: center;
-  text-justify: center;
 }
 
 #search {
@@ -126,12 +177,12 @@ a:hover {
     font-size: 10px;
     font-weight: bold;
     background-color:#0065FC;
-    padding: 12px;
+    padding: 15px;
     text-align: center;
-    text-justify: center;
     border-right: 1px solid #eeeeee;
     border-bottom-right-radius: 25%;
     border-top-right-radius: 25%; 
+    display: inline-block;
 }
 
 strong {
@@ -152,6 +203,7 @@ strong {
     padding: 15px;
     border-radius: 80px;
     font-size: 12px;
+    text-shadow: none;
 }
 
 .low {
@@ -169,14 +221,15 @@ strong {
     color: #0065FC;
     border: 1px solid #eeeeee;
     background-color: #DEEBFF;
-    padding: 12px;
+    padding: 15px;
     border-radius: 50%;
+    text-shadow: none;
 }
 
 .romance {
     border: 2px #eeeeee;
     border-style: solid solid solid hidden;
-    padding: 14px 20px 14px 0px;
+    padding: 12px 20px 12px 0px;
     border-radius: 80px;
     font-weight: bold;
     font-size: 12px;
@@ -188,14 +241,16 @@ strong {
     color: #0065FC;
     border: 1px solid #eeeeee;
     background-color: #DEEBFF;
-    padding: 15px 20px 15px 20px;
+    padding: 14px 15px 14px 15px;
     border-radius: 50%;
+    font-size:15px;
+    text-shadow: none;
 }
 
 .family {
     border: 2px #eeeeee;
     border-style: solid solid solid hidden;
-    padding: 14px 20px 14px 0px;
+    padding: 14px 20px 10px 0px;
     border-radius: 80px;
     font-weight: bold;
     font-size: 12px;
@@ -209,6 +264,7 @@ strong {
     background-color: #DEEBFF;
     padding: 15px;
     border-radius: 50%;
+    text-shadow: none;
 }
 
 .pet {
@@ -268,14 +324,14 @@ strong {
     font-size: 12px;
     font-weight: bold;
     padding: 1px 0px 5px 10px;
-    text-justify: left;
+    text-align: left;
     margin: 0px;
     text-shadow: 1px 0px black;
 }
 
 .price {
     font-size: 10px;
-    text-justify: left;
+    text-align: left;
     padding: 1px 0px 5px 10px;
     margin: 0px;
 }
@@ -413,7 +469,7 @@ strong {
     display: inline-flex;
     align-content: flex-end;
     flex-flow: column wrap;
-    text-justify: center;
+    text-align: center;
     font-size: 10px;
     padding: 5px;
 }
@@ -423,7 +479,7 @@ strong {
 }
 
 .small-activity-card {
-    /* height: 115px; */
+    /*height: 115px; */
     width: 100%;
     border: 1px solid #eeeeee;
     background-color:white;
@@ -434,7 +490,7 @@ strong {
 }
 
 .large-activity-card {
-    /* height: 260px; */
+    /*height: 260px; */
     width: 23%;
     border: 1px solid #eeeeee;
     background-color:white;
@@ -442,10 +498,12 @@ strong {
     margin-bottom: 15px;
     margin-top: 15px;
     box-shadow: 1px 1px #eeeeee;
+    padding: 0;
 }
 
 .small-active-image {
     width: 100%; 
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -455,6 +513,7 @@ strong {
 
 .large-active-image {
     width: 100%;  
+    height: 470px;
     object-fit: cover;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -488,7 +547,7 @@ strong {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #eeeeee;
 }
 
@@ -523,11 +582,11 @@ strong {
 .grey-star {
     font-size: 10px;
     color: #eeeeee;
-}3
+}
 
 
 /*Tablet*/
-@media screen and (max-width: 950px) and (min-width: 501px) {
+@media screen and (max-width: 950px) and (min-width: 581px) {
     .flex-wrap {
         flex-direction: column;
     }
@@ -550,6 +609,99 @@ strong {
     .flex-wrap {
         flex-direction: column-reverse;
     }
+    
+       
+    .logo {
+        order: 1;
+        flex: 50%;
+        padding:10px;
+        margin-bottom: 10px;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .border-wrap-1 {
+        order: 3;
+        border-bottom: 2px solid #eeeeee; 
+        margin: 0;
+        width: 50%;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+
+    .border-wrap-1:active {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        
+    }
+    .accom:active {
+        border-top: none;
+    }
+
+    .border-wrap-2 {
+        order: 4;
+        border-bottom: 2px solid #eeeeee;
+        padding: 0;
+        padding-bottom: 10px;
+        margin: 0;
+        width: 50%;
+    }
+
+    .border-wrap-2:active {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    .activities:active {
+        border-top: none;
+    }
+
+    
+    .sign:active {
+        border-top: none;
+    }
+
+    .sign {
+        order: 2;
+       flex: 50%;
+       text-align: right;
+       padding: 20px;
+    }
+
+    .desktop-label {
+        display: none;
+    }
+    .phone-label {
+        display: inline;
+    }
+    .phone-search {
+        color: white;
+        font-family: Raleway, sans-serif;
+        font-size: 15px;
+        background-color:#0065FC;
+        padding: 13px;
+        text-align: center;
+        border-right: 1px solid #eeeeee;
+        border-radius: 25%;
+        margin-left: 0;
+    }
+
+    #search {
+        border-right: none;
+        margin-right: 0;
+    }
+
+    .search-wrap {
+        border: 1px solid #eeeeee;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20%;
+    }
 
     .hotel {
         width: 95%;
@@ -560,17 +712,47 @@ strong {
         border-radius: 0;
         margin: 0;
         width: 100%;
+        background-color: #eeeeee;
+    }
+
+
+
+    .large-active-image {
+        height: 200px;
     }
 
     .footer {
         flex-direction: column
     }
 
+    .filters {
+        margin: 20px;
+    }
+
     .filter-wrap {
         display: flex;
-        flex-flow: column wrap;
-        height: 200px;
+        flex-flow: row wrap;
+        width: 85%;
+        height: 150px;
         align-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .search {
+        margin-left: 20px;
+    }
+
+    .low{
+        order: 1;
+    }
+    .romance {
+        order: 2;
+    }
+    .family {
+        order: 3;
+    }
+    .pet {
+        order: 4;
     }
 
     .child {
@@ -580,25 +762,20 @@ strong {
 
     .family {
         padding: 0;
+        padding-right: 15px;
         
-    }
-
-    .family-link {
-        width: 145px;
     }
 
     .romance {
         padding: 0;
-        margin: 0;
-        width: 135px;
+        padding-right: 40px;
     }
 
     .pet {
         padding: 0;
-        width: 155px;
+        padding-right: 50px;
     }
 
-   
     .low {
         padding: 0;
         width: 120px;
@@ -614,6 +791,26 @@ strong {
 
     .dog {
         padding: 15px;
+    }
+
+    #tagline {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .line-1::after {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .line-2::before {
+        content: "\a";
+    }
+    
+
+    #where {
+        margin-top: 10px;
+        margin-left: 20px;
     }
 
     .hotel-flex-wrap {
