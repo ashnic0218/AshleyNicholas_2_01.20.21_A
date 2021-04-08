@@ -21,7 +21,7 @@ body {
 }
 .accom:active{
     border-top: 5px solid #0065FC;
-    padding-top: 30px;
+    padding-top: 30px; 
 }
 
 .border-wrap-1 {
@@ -815,6 +815,10 @@ strong {
 
     .hotel-flex-wrap {
         flex-direction: column;
+    }
+
+    .hotel {
+        border: none;
     }
 
     .hotel-card {
