@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-  background-color:#eeeeee;
+  background: color #f2f2f2;
 }
 
 .logo {
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .search-wrap {
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     display: flex;
     justify-content: space-around;
     border-radius: 20%;
@@ -152,7 +152,7 @@ a:hover {
 
 .map-pin {
   color: black;
-  background-color:#eeeeee;
+  background-color:#f2f2f2;
   padding: 12px 10px 10px 9px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
@@ -167,7 +167,7 @@ a:hover {
     font-weight: bolder;
     background-color: white;
     padding: 10px 20px 12px 20px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     font-size: 15px;
 }
 
@@ -179,7 +179,7 @@ a:hover {
     background-color:#0065FC;
     padding: 15px;
     text-align: center;
-    border-right: 1px solid #eeeeee;
+    border-right: 1px solid #f2f2f2;
     border-bottom-right-radius: 25%;
     border-top-right-radius: 25%; 
     display: inline-block;
@@ -207,7 +207,7 @@ strong {
 }
 
 .low {
-    border: 2px #eeeeee;
+    border: 2px #f2f2f2;
     border-style: solid solid solid hidden;
     padding: 14px 20px 14px 0px;
     border-radius: 80px;
@@ -219,7 +219,7 @@ strong {
 
 .heart {
     color: #0065FC;
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     background-color: #DEEBFF;
     padding: 15px;
     border-radius: 50%;
@@ -227,7 +227,7 @@ strong {
 }
 
 .romance {
-    border: 2px #eeeeee;
+    border: 2px #f2f2f2;
     border-style: solid solid solid hidden;
     padding: 12px 20px 12px 0px;
     border-radius: 80px;
@@ -239,7 +239,7 @@ strong {
 
 .child {
     color: #0065FC;
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     background-color: #DEEBFF;
     padding: 14px 15px 14px 15px;
     border-radius: 50%;
@@ -248,7 +248,7 @@ strong {
 }
 
 .family {
-    border: 2px #eeeeee;
+    border: 2px #f2f2f2;
     border-style: solid solid solid hidden;
     padding: 14px 20px 10px 0px;
     border-radius: 80px;
@@ -260,7 +260,7 @@ strong {
 
 .dog {
     color: #0065FC;
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     background-color: #DEEBFF;
     padding: 15px;
     border-radius: 50%;
@@ -268,7 +268,7 @@ strong {
 }
 
 .pet {
-    border: 2px #eeeeee;
+    border: 2px #f2f2f2;
     border-style: solid solid solid hidden;
     padding: 14px 20px 14px 0px;
     border-radius: 80px;
@@ -281,7 +281,7 @@ strong {
 .info-circle {
     color: white;
     background-color: #0065FC;
-    border: 2px solid #eeeeee; /* unable to get border to show properly ask Tim */
+    border: 2px solid #f2f2f2; /* unable to get border to show properly ask Tim */
     border-radius: 50%;
 }
 
@@ -354,8 +354,8 @@ strong {
 .hotel {
     color: black;
     box-sizing: border-box;
-    background-color: #eeeeee;
-    border: 1px solid #eeeeee;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 30px;
     font-family: Raleway, sans-serif;
     padding: 10px;
@@ -415,8 +415,8 @@ strong {
 .popular {
     color: black;
     box-sizing: border-box;
-    background-color: #eeeeee;
-    border: 1px solid #eeeeee;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 30px;
     font-family: Raleway, sans-serif;
     padding: 20px;
@@ -481,23 +481,23 @@ strong {
 .small-activity-card {
     /*height: 115px; */
     width: 100%;
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     background-color:white;
     border-radius: 30px;
     margin-bottom: 15px;
     margin-top: 15px;
-    box-shadow: 1px 1px #eeeeee;
+    box-shadow: 1px 1px #f2f2f2;
 }
 
 .large-activity-card {
     /*height: 260px; */
     width: 23%;
-    border: 1px solid #eeeeee;
+    border: 1px solid #f2f2f2;
     background-color:white;
     border-radius: 30px;
     margin-bottom: 15px;
     margin-top: 15px;
-    box-shadow: 1px 1px #eeeeee;
+    box-shadow: 1px 1px #f2f2f2;
     padding: 0;
 }
 
@@ -548,7 +548,7 @@ strong {
 .footer {
     display: flex;
     justify-content: space-around;
-    background-color: #eeeeee;
+    background-color: #f2f2f2;
 }
 
 .about {
@@ -581,7 +581,7 @@ strong {
 
 .grey-star {
     font-size: 10px;
-    color: #eeeeee;
+    color: #f2f2f2;
 }
 
 
@@ -626,7 +626,7 @@ strong {
 
     .border-wrap-1 {
         order: 3;
-        border-bottom: 2px solid #eeeeee; 
+        border-bottom: 2px solid #f2f2f2; 
         margin: 0;
         width: 50%;
         padding: 0;
@@ -645,7 +645,7 @@ strong {
 
     .border-wrap-2 {
         order: 4;
-        border-bottom: 2px solid #eeeeee;
+        border-bottom: 2px solid #f2f2f2;
         padding: 0;
         padding-bottom: 10px;
         margin: 0;
@@ -686,7 +686,7 @@ strong {
         background-color:#0065FC;
         padding: 13px;
         text-align: center;
-        border-right: 1px solid #eeeeee;
+        border-right: 1px solid #f2f2f2;
         border-radius: 25%;
         margin-left: 0;
     }
@@ -697,7 +697,7 @@ strong {
     }
 
     .search-wrap {
-        border: 1px solid #eeeeee;
+        border: 1px solid #f2f2f2;
         display: flex;
         justify-content: space-around;
         border-radius: 20%;
@@ -712,7 +712,7 @@ strong {
         border-radius: 0;
         margin: 0;
         width: 100%;
-        background-color: #eeeeee;
+        background-color: #f2f2f2;
     }
 
 
